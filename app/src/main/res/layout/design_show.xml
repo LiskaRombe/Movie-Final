@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginVertical="10dp">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="185dp"
+        android:orientation="vertical"
+        android:background="#1D364A">
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_marginTop="5dp"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/image"/>
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:textColor="#C8A6A6"
+            android:textStyle="bold"
+            android:text="Title"/>
+
+        <TextView
+            android:id="@+id/tahun"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:textColor="#C8A6A6"
+            android:text="Year"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
